@@ -71,7 +71,9 @@ bool GetVertex(std::string& vertsStr, std::string::size_type& sz, CVertex& vert)
 	sz++;
 
 	//z component is 0
-	vert.z = 0.;
+	z = 0.;
+	vert.z = z;
+
 	return true;
 }
 
