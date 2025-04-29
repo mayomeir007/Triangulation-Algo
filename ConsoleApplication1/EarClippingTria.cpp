@@ -72,6 +72,7 @@ bool GetVertex(std::string& vertsStr, std::string::size_type& sz, CVertex& vert)
 
 	//z component is 0
 	vert.z = 0.;
+	return true;
 }
 
 void FillVertices(std::ofstream& wvfile, const std::vector <CVertex>& verts)
